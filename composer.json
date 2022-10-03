@@ -1,0 +1,14 @@
+{
+  "require": {
+    "symfony/routing": "^5.4",
+    "twig/twig": "^3.0",
+    "symfony/http-foundation": "^5.4",
+    "symfony/validator": "^5.4",
+    "symfony/mime": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clarementis test</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>cost</th>
+        </tr>
+        {% for cost in categories %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ cost }}</td>
+            </tr>
+        {% endfor %}
+
+    </table>
+</body>
+</html>
